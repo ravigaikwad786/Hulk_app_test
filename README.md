@@ -1,5 +1,7 @@
 # README
-**** Application is not stell completed yet ******
+# Application is not still completed yet 
+
+** You Can use Custom Routes to test application , Thank you
 
 *** I have referred [Addison-Wesley Professional Ruby Series] Michael Hartl - Ruby on Rails Tutorial (2020, Addison-Wesley Professional) Thise book to write code ***
 
