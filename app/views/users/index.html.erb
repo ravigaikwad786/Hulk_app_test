@@ -1,7 +1,7 @@
 <%provide(:title , 'All Users')%>
 <h1>All Users</h1>
 	
-	<%=link_to "Export data CSV" , users_path(format:"csv") , class:"btn btn-primary"%>
+	
 	<%= will_paginate %> 
 		<ul class="users">
 			<%= render @users%>

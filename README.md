@@ -1,24 +1,31 @@
 # README
+**** Application is not stell completed yet ******
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*** I have referred [Addison-Wesley Professional Ruby Series] Michael Hartl - Ruby on Rails Tutorial (2020, Addison-Wesley Professional) Thise book to write code ***
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+Steps to install application at local machine
 
-* Configuration
+# use ruby version 3.0.0
+#$ rvm use 3.0.0
+# install Bundle
+#$ bundle install
+# Configure the database.yml by file
+--> note i have use mysql database 
+--> Change 
+    username: 
+    password:
+# Run Following Command
+#$ rails db:create
+#$ rails db:migrate
+#$ rails db:seed (for write into database)    
+# Running The aseets precompile
+#$ rails assets:precompile
 
-* Database creation
+# Starting the application
+#$ rails s
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
